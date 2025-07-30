@@ -1,34 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <header>
+        <h1>GIFSFLA</h1>
+        <nav>
+            <a href="#noticias">Notícias</a>
+            <a href="#jogos">Jogos</a>
+            <a href="#tabela">Tabela</a>
+            <a href="#fotos">Fotos</a>
+            <a href="#videos">Vídeos</a>
+            <a href="#redessociais">Redes Sociais</a>
+        </nav>
+    </header>
+    <style>
+        header {
+            /* css do cabeçalho */
+            background-color: #7c0909;
+            /* vermelho escuro */
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            color: #fcfcfb;
+            /* branco */
+            margin: 0;
+            font-size: 32px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f1f1f0;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>GIFSFLA</h1>
-    <h2>Bem vindo, aqui vc terá noticias, gifs e videos Flamengo</h2>
+    <div class="grade">
+
+        <div class="item">
+            <h3>Notícia do Flamengo</h3>
+            <p>Carrascal chega ao Rio para assinar com o Flamengo</p>
+            <a href="https://ge.globo.com/futebol/times/flamengo/noticia/2025/07/30/carrascal-chega-ao-rio-para-assinar-com-o-flamengo.ghtml"
+                target="_blank"></a>
+            <button
+                style="padding: 10px 10px; font-size: 13px; background-color: #660b0b; color: white; border: none; border-radius: 5px;">Leia
+                mais</button>
+        </div>
+    </div>
     <p>Para acessar nossa redes sociais, clique no botão abaixo:</p>
     <a href="https://www.instagram.com/gifsfla" target="_blank">
-        <button style="padding: 10px 20px; font-size: 16px; background-color: #660b0b; color: white; border: none; border-radius: 5px;">Instagram</button>
+        <button
+            style="padding: 10px 20px; font-size: 16px; background-color: #660b0b; color: white; border: none; border-radius: 5px;">Instagram</button>
     </a><br>
     <a href="https://x.com/GifsFla" target="_blank">
-        <button style="padding: 10px 20px; font-size: 16px; background-color: #660b0b; color: white; border: none; border-radius: 5px;">Twitter</button>
+        <button
+            style="padding: 10px 20px; font-size: 16px; background-color: #660b0b; color: white; border: none; border-radius: 5px;">Twitter</button>
     </a><br>
     <a href="https://www.tiktok.com/@gifsfla" target="_blank ">
-        <button style="padding: 10px 20px; font-size: 16px; background-color: #660b0b; color: white; border: none; border-radius: 5px;">TikTok</button>
+        <button
+            style="padding: 10px 20px; font-size: 16px; background-color: #660b0b; color: white; border: none; border-radius: 5px;">TikTok</button>
     </a><br>
+    <footer>
+        <p>&copy; 2023 GIFSFLA. Todos os direitos reservados.</p>
+        <p>Desenvolvido por <a href="https://github.com/fernandaduarten" target="_blank">Fernando Duarte</a></p>
+    </footer>
     <style>
-    body {
-        margin: 12px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f0f0f0;
-    }
-    button {
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        margin: 5px;
-    }
+        body {
+            margin: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        button {
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 5px;
+            padding: 10px 20px;
+        }
+
+        button:hover {
+            background-color: #ff0000;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .grade {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        footer a {
+            color: #660b0b;
+            text-decoration: none;
+        }
     </style>
+
 </body>
+
 </html>
